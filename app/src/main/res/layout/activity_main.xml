@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    tools:context="com.example.positivevibes.publicservice.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/black"
+
+            app:srcCompat="@drawable/accountcircle" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="150dp"
+            android:background="@android:color/white"
+            android:text="WELCOME"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/Fname"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="first name"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/EditPassword"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/Fname"
+            android:layout_below="@+id/Fname"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/EditPassword"
+            android:layout_below="@+id/EditPassword"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"
+            android:text="Log in" />
+
+        <TextView
+            android:id="@+id/Register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/login"
+            android:layout_below="@+id/login"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="11dp"
+            android:hint="Register"
+            android:onClick="Register"
+            android:text="@string/loginInfo"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/NonAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="100dp"
+            android:onClick="NonAdmin"
+            android:text="TextView" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

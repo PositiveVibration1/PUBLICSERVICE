@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profile" android:title="Profile" android:icon="@drawable/account_circle"/>
+    <item android:id="@+id/home" android:title="Home" android:icon="@drawable/home_black"/>
+    <item android:id="@+id/message" android:title="Message" android:icon="@drawable/baseline_textsms_black_18dp"/>
+    <item android:id="@+id/chat" android:title="Chat" android:icon="@drawable/chat_black"/>
+    <item android:id="@+id/notify" android:title="Notification" android:icon="@drawable/notification"/>
+    <item android:id="@+id/send" android:title="Send" android:icon="@drawable/send_black"/>
+    <item android:id="@+id/share" android:title="Share" android:icon="@drawable/ic_share_white_24dp"/>
+
+</menu>
